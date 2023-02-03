@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-link {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 25px;
+    color: #56593D;
+    text-decoration: none;
+}
+.top-link:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 56px;
+    margin-left: 56px;
+    margin-right: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-banner {
+    margin-top: 60px;
+    margin-left: 56px;
+    margin-right: 56px;
+    padding: 64px;
+    height: 700px;
+    background-image: url(images/mainpage_banner.png);
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 1.8px;
+    color: #56593D;
+}
+h2 {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: right;
+    color: #56593D;
+}
+
+.wrapper {
+    text-align: right;
+    margin-top: 25px;
+}
+.shop-now-btn {
+    text-transform: uppercase;
+    background: #56593D;
+    border-radius: 0px;
+    border: 2px solid transparent;
+    border-color: #56593D;
+    border-width: 4px;
+    box-sizing: border-box;
+    text-align: right;
+    color: #FFFFEF;
+    padding: 16px 25px 16px 25px;
+    font-size: 16px;
+}
+.shop-now-btn:hover {
+    border-color: #fff;
+    font-weight: 300;
+}
+
+.under-banner-text {
+    margin-top: 110px;
+    margin-bottom: 25px;
+    margin-left: 123px;
+    margin-right: 123px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: #56593D;
+}
+.links-block {
+    text-align: center;
+}
+.under-banner-link {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 26px;
+
+    letter-spacing: 1.6px;
+    color: #56593D;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.collection-section {
+    margin-top: 90px;
+    padding: 64px 32px 80px 32px;
+    text-align: center;
+}
+h4 {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 32px;
+    color: #56593D;
+}
+.collection-cards {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    margin-left: 32px;
+}
+
+.card-title {
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    color: #56593D;
+}
+.card-price {
+    margin-top: 7px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.62px;
+    color: #56593D;
+}
+
+.minimalism-banner {
+    background-image: url(images/minimalism_banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-top: 40px;
+    padding: 62px 62px 62px 62px;
+    text-align: center;
+}
+
+.minimalism-banner-header1 {
+    margin-bottom: 11px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1.8px;
+    color: #56593D;
+}
+.minimalism-banner-header2 {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 60px;
+    color: #56593D;
+}
+
+footer {
+    background: #717353;
+    /*height: 382px;*/
+
+    margin: 128px 8px 8px 8px;
+    padding: 64px 32px 128px 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.column {
+    width: 256px;
+    margin-right: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.line {
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+.footer-p {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1.575px;
+}
+.footer-link {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 16px;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
