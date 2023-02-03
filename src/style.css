@@ -9,9 +9,13 @@
     line-height: 25px;
     color: #56593D;
     text-decoration: none;
+    margin-right: 38px;
 }
 .top-link:hover {
     text-decoration: underline;
+}
+.top-icon {
+    margin-left: 20px;
 }
 
 header {
@@ -23,6 +27,10 @@ header {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    gap: 48px;
+}
+.icon-group {
+    margin-left: auto;
 }
 
 .top-banner {
@@ -128,11 +136,12 @@ h4 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    gap: 32px;
 }
 
 .card {
     text-align: center;
-    margin-left: 32px;
+    /*margin-left: 32px;*/
 }
 
 .card-title {
